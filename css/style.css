@@ -1,0 +1,33 @@
+img {
+  border: solid rgba(14, 13, 13, 0.336);
+}
+.fab {
+  height: 100;
+}
+.para {
+  width: 50%;
+  margin: auto;
+  margin-top: 5%;
+}
+.col-lg-6 {
+  margin-top: 10%;
+}
+#portfolio {
+  background-color: #5585b5;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .reversecol {
+    flex-direction: column-reverse;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+  @media only screen and (max-width: 990px) {
+    .reversecol {
+      flex-direction: column-reverse;
+    }
+  }
+}
